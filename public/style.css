@@ -564,12 +564,12 @@ video {
   position: relative;
 }
 
-.right-3{
-  right: 0.75rem;
+.bottom-4{
+  bottom: 1rem;
 }
 
-.top-3{
-  top: 0.75rem;
+.bottom-5{
+  bottom: 1.25rem;
 }
 
 .bottom-9{
@@ -578,6 +578,14 @@ video {
 
 .left-1\/2{
   left: 50%;
+}
+
+.right-3{
+  right: 0.75rem;
+}
+
+.top-3{
+  top: 0.75rem;
 }
 
 .mx-16{
@@ -593,6 +601,15 @@ video {
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
+}
+
+.my-8{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.mb-16{
+  margin-bottom: 4rem;
 }
 
 .mb-24{
@@ -635,32 +652,32 @@ video {
   display: none;
 }
 
-.h-\[530px\]{
-  height: 530px;
-}
-
-.h-\[540px\]{
-  height: 540px;
-}
-
-.h-full{
-  height: 100%;
-}
-
-.h-\[350px\]{
-  height: 350px;
+.h-\[380px\]{
+  height: 380px;
 }
 
 .h-\[400px\]{
   height: 400px;
 }
 
+.h-\[530px\]{
+  height: 530px;
+}
+
+.h-full{
+  height: 100%;
+}
+
+.w-11\/12{
+  width: 91.666667%;
+}
+
 .w-\[100px\]{
   width: 100px;
 }
 
-.w-\[75\%\]{
-  width: 75%;
+.w-\[95\%\]{
+  width: 95%;
 }
 
 .w-full{
@@ -670,14 +687,6 @@ video {
 .w-max{
   width: -moz-max-content;
   width: max-content;
-}
-
-.w-11\/12{
-  width: 91.666667%;
-}
-
-.w-\[95\%\]{
-  width: 95%;
 }
 
 .max-w-screen-2xl{
@@ -709,10 +718,6 @@ video {
   cursor: pointer;
 }
 
-.grid-cols-2{
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
 .grid-cols-1{
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -735,10 +740,6 @@ video {
 
 .justify-between{
   justify-content: space-between;
-}
-
-.gap-4{
-  gap: 1rem;
 }
 
 .gap-8{
@@ -772,8 +773,44 @@ video {
   background-image: url('./img/featured-mug-02.jpg');
 }
 
+.bg-\[url\(\'\.\/img\/products\/product-coffee-01\.jpg\'\)\]{
+  background-image: url('./img/products/product-coffee-01.jpg');
+}
+
 .bg-\[url\(\'\.\/img\/slider-bg\/slider1\.jpg\'\)\]{
   background-image: url('./img/slider-bg/slider1.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/products\/product-coffee-02\.jpg\'\)\]{
+  background-image: url('./img/products/product-coffee-02.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/products\/product-coffee-03\.jpg\'\)\]{
+  background-image: url('./img/products/product-coffee-03.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/products\/product-coffee-04\.jpg\'\)\]{
+  background-image: url('./img/products/product-coffee-04.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/products\/product-coffee-05\.jpg\'\)\]{
+  background-image: url('./img/products/product-coffee-05.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/products\/product-coffee-06\.jpg\'\)\]{
+  background-image: url('./img/products/product-coffee-06.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/products\/product-coffee-08\.jpg\'\)\]{
+  background-image: url('./img/products/product-coffee-08.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/products\/product-coffee-09\.jpg\'\)\]{
+  background-image: url('./img/products/product-coffee-09.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/products\/product-coffee-07\.jpg\'\)\]{
+  background-image: url('./img/products/product-coffee-07.jpg');
 }
 
 .bg-cover{
@@ -819,11 +856,6 @@ video {
 .py-24{
   padding-top: 6rem;
   padding-bottom: 6rem;
-}
-
-.py-4{
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 .text-center{
@@ -886,10 +918,6 @@ video {
 
 .tracking-normal{
   letter-spacing: 0em;
-}
-
-.tracking-wider{
-  letter-spacing: 0.05em;
 }
 
 .tracking-widest{
@@ -1030,8 +1058,8 @@ video {
   cursor: pointer;
   padding-left: 2rem;
   padding-right: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
   text-align: center;
   font-size: 0.75rem;
   line-height: 1rem;
@@ -1106,10 +1134,6 @@ video {
   --tw-bg-opacity: 0.1;
 }
 
-.hover\:bg-opacity-90:hover{
-  --tw-bg-opacity: 0.9;
-}
-
 .hover\:text-coffee-400:hover{
   --tw-text-opacity: 1;
   color: rgb(162 95 75 / var(--tw-text-opacity));
@@ -1175,6 +1199,14 @@ video {
 }
 
 @media (min-width: 768px){
+  .md\:grid-cols-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:gap-4{
+    gap: 1rem;
+  }
+
   .md\:px-32{
     padding-left: 8rem;
     padding-right: 8rem;
@@ -1200,6 +1232,10 @@ video {
 
   .lg\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .lg\:justify-start{

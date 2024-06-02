@@ -33,5 +33,5 @@
 }
 
 .ct-button{
-    @apply text-center uppercase tracking-wider px-8 py-4 text-xs font-semibold cursor-pointer hover:bg-opacity-90;
+    @apply text-center uppercase tracking-wider px-8 py-5 text-xs font-semibold cursor-pointer hover:bg-opacity-90;
 }
