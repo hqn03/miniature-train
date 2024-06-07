@@ -576,28 +576,16 @@ video {
   left: 50%;
 }
 
+.left-\[calc\(-50vw\+50\%\)\]{
+  left: calc(-50vw + 50%);
+}
+
 .right-3{
   right: 0.75rem;
 }
 
 .top-3{
   top: 0.75rem;
-}
-
-.left-0{
-  left: 0px;
-}
-
-.left-\[50vw\+50\%\]{
-  left: 50vw+50%;
-}
-
-.left-\[-50vw\+50\%\]{
-  left: -50vw+50%;
-}
-
-.left-\[calc\(-50vw\+50\%\)\]{
-  left: calc(-50vw + 50%);
 }
 
 .mx-16{
@@ -613,6 +601,11 @@ video {
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
+}
+
+.my-6{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .my-8{
@@ -676,6 +669,14 @@ video {
   height: 280px;
 }
 
+.h-\[300px\]{
+  height: 300px;
+}
+
+.h-\[340px\]{
+  height: 340px;
+}
+
 .h-\[380px\]{
   height: 380px;
 }
@@ -692,20 +693,16 @@ video {
   height: 100%;
 }
 
-.h-40{
-  height: 10rem;
-}
-
-.h-\[340px\]{
-  height: 340px;
-}
-
 .w-11\/12{
   width: 91.666667%;
 }
 
 .w-\[100px\]{
   width: 100px;
+}
+
+.w-\[100vw\]{
+  width: 100vw;
 }
 
 .w-\[95\%\]{
@@ -719,10 +716,6 @@ video {
 .w-max{
   width: -moz-max-content;
   width: max-content;
-}
-
-.w-\[100vw\]{
-  width: 100vw;
 }
 
 .max-w-screen-2xl{
@@ -830,12 +823,20 @@ video {
   --tw-bg-opacity: 0.5;
 }
 
+.bg-\[url\(\'\.\/img\/bg-parallax-01\.jpg\'\)\]{
+  background-image: url('./img/bg-parallax-01.jpg');
+}
+
 .bg-\[url\(\'\.\/img\/featured-mug-01\.jpg\'\)\]{
   background-image: url('./img/featured-mug-01.jpg');
 }
 
 .bg-\[url\(\'\.\/img\/featured-mug-02\.jpg\'\)\]{
   background-image: url('./img/featured-mug-02.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/lifestyle-story-01\.jpg\'\)\]{
+  background-image: url('./img/lifestyle-story-01.jpg');
 }
 
 .bg-\[url\(\'\.\/img\/magazine\/magazine-image-01\.jpg\'\)\]{
@@ -890,8 +891,12 @@ video {
   background-image: url('./img/slider-bg/slider1.jpg');
 }
 
-.bg-\[url\(\'\.\/img\/bg-parallax-01\.jpg\'\)\]{
-  background-image: url('./img/bg-parallax-01.jpg');
+.bg-\[url\(\'\.\/img\/lifestyle-story-02\.jpg\'\)\]{
+  background-image: url('./img/lifestyle-story-02.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/lifestyle-story-03\.jpg\'\)\]{
+  background-image: url('./img/lifestyle-story-03.jpg');
 }
 
 .bg-cover{
@@ -968,6 +973,10 @@ video {
 .text-5xl{
   font-size: 3rem;
   line-height: 1;
+}
+
+.text-\[13px\]{
+  font-size: 13px;
 }
 
 .text-base{
@@ -1164,11 +1173,11 @@ video {
   line-height: 1rem;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.1em;
 }
 
 .ct-button:hover{
-  --tw-bg-opacity: 0.9;
+  --tw-bg-opacity: 0.95;
 }
 
 .after\:absolute::after{
